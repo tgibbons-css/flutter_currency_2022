@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               children: [
                 Text("Dollars:",
-                    style: Theme.of(context).textTheme.headline4),
+                    style: Theme.of(context).textTheme.headlineMedium),
                 Expanded(child: TextField(controller: dollarTextField,)),
               ],
             ),
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               children: [
                 Text("Euros",
-                  style: Theme.of(context).textTheme.headline4,),
+                  style: Theme.of(context).textTheme.headlineMedium,),
                 Expanded(child: TextField(controller: euroTextField,)),
               ],
             ),
